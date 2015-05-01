@@ -3,12 +3,15 @@ title: dynami
 comment: true
 keywords: guijinshu blog,Contact
 ---
-
+{% for post in paginator.posts %}
 <div class="article">
+
     <h3 class="title">{{ page.title }}</h3>
     <div class="fn-clear"></div>
       	<div style="border:1pt outset red" class="dynami" >
         <iframe id="jin10" name="jin10" src="http://www.jin10.com/jin10.com.html" scrolling="no" width="100%" frameborder="0" height="3000">实时资讯</iframe>
         </div>
 	  <div class="fn-clear"></div>
+
 </div>
+{% endfor %}
