@@ -1,0 +1,123 @@
+# Where things are
+source:       .
+destination:  ./_site
+plugins:      ./_plugins
+layouts:      ./_layouts
+paginate:     8
+
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext:  "textile"
+
+# Filtering Content
+show_drafts:  null
+limit_posts:  0
+future:       true
+unpublished:  false
+
+# Conversion
+markdown:     kramdown
+highlighter:  pygments
+lsi:          false
+excerpt_separator: "\n\n"
+
+# Serving
+detach:       false
+port:         4000
+host:         127.0.0.1
+baseurl:      "" # does not include hostname
+
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      null
+
+
+#Site config
+title: ╰⋛⋋潮濱⋌⋚╯贵金属工作室
+description: 贵金属文章
+keywords: 贵金属 白银 黄金 股票 证券
+url: http://www.mtanlee.cn
+feed: /atom.xml
+favicon: /images/shortcut.jpg
+
+#Nav config
+nav:
+  - text: 首页
+    url: /index.html
+  - text: 分类目录
+    url: /categories.html
+  - text: 文章归档
+    url: /archives.html
+  - text: 实时动态
+    url: /dynamic.html
+  - text: 联系我
+    url: /contact.html
+  - text: 友情链接
+    url: /links.html
+
+#Author config
+author:
+    name: mtanlee
+    email: mtan@mtanlee.com
+    imageLink: /images/header.jpg
+    imageLinkgif: /images/head.gif
+    simpleIntro:  不以物喜不以己悲
+    simpleIntro_contacttile: “”处事”不惊
+    detailIntro:
+      <p>下单果断，出单勿恋</p>
+      <p>勿追行情，当断即断</p>
+      <p>宁错一单，不追一单</p>
+      <p>静待进场，稳如泰山</p>
+
+#Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
+follow:
+  - class: icon-rss
+    url: /atom.xml
+  - class: icon-weibo
+    url: http://weibo.com/
+  - class: icon-facebook
+    url: http://facebook.com/
+  - class: icon-github-alt
+    url: http://github.com/
+  - class: icon-twitter
+    url: http://twitter.com/
+  - class: icon-google-plus
+    url: https://plus.google.com/112346389924534185312/about
+
+#Links
+customLinks:
+  - item:
+    - text: 财经日历
+      url: http://rl.fx678.com/
+    - text: 华尔街见闻
+      url: http://markets.wallstreetcn.com/
+    message: 财经链接
+
+#googleAnaly, your id link UA-12345678-X
+googleAnaly:
+  config: true
+  id: UA-62022832-1
+
+#baidu tongji
+baiduTongji:
+  config: true
+  id: dc6f3e1177ad818cfa851306ccdc1f97
+
+#comment config
+disqus:
+  config: false
+  id:
+
+duoshuo:
+  config: true
+  id: mtanlee
+
+#baidu share config
+baiduShare:
+  config: true
