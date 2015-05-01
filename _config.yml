@@ -36,7 +36,7 @@ baseurl:      "" # does not include hostname
 permalink:     date
 paginate_path: /page:num
 timezone:      null
-
+encoding: UTF-8
 
 #Site config
 title: ╰⋛⋋潮濱⋌⋚╯贵金属工作室
